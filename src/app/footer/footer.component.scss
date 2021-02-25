@@ -1,4 +1,74 @@
+//.rainbow-text {
+//  background-image: radial-gradient(white, yellow, lightyellow, aqua);   -webkit-background-clip: text;
+//  color: transparent;
+//}
 .rainbow-text {
-  background-image: radial-gradient(white, yellow, lightyellow, aqua);   -webkit-background-clip: text;
-  color: transparent;
+  animation: color-change;
+  animation-direction: normal;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes color-change {
+  0%, 100% {
+    color: #ecf0f1
+  }
+  5% {
+    color: #2ecc71
+  }
+  10% {
+    color: DeepPink
+  }
+  15% {
+    color: #9b59b6
+  }
+  20% {
+    color: MediumVioletRed
+  }
+  25% {
+    color: Peru
+  }
+  30% {
+    color: MidnightBlue
+  }
+  35% {
+    color: MintCream
+  }
+  40% {
+    color: OrangeRed
+  }
+  45% {
+    color: PaleGoldenRod
+  }
+  50% {
+    color: Peru
+  }
+  55% {
+    color: SeaShell
+  }
+  60% {
+    color: #e74c3c
+  }
+  65% {
+    color: Thistle
+  }
+  70% {
+    color: YellowGreen
+  }
+  75% {
+    color: #f39c12
+  }
+  80% {
+    color: #d35400
+  }
+  85% {
+    color: #c0392b
+  }
+  90% {
+    color: RebeccaPurple
+  }
+  95% {
+    color: #7f8c8d
+  }
 }
