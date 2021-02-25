@@ -1,5 +1,9 @@
-.view {
-  background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
-  background-size: cover;
-  height: 100vh;
+.unCoverHeader {
+  height: 65px;
+}
+
+@media screen and (max-width: 600px) {
+  .unCoverHeader {
+    height: 57px;
+  }
 }
