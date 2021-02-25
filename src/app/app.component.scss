@@ -1,9 +1,24 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../assets/image/pexels-negative-space-160107.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .unCoverHeader {
-  height: 65px;
+  height: 64px;
 }
 
 @media screen and (max-width: 600px) {
   .unCoverHeader {
-    height: 57px;
+    height: 56px;
   }
 }
