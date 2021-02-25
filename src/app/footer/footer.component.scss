@@ -10,6 +10,13 @@
   animation-timing-function: ease;
 }
 
+.rainbow-text-50s {
+  animation: color-change;
+  animation-direction: normal;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
 @keyframes color-change {
   0%, 100% {
     color: #ecf0f1

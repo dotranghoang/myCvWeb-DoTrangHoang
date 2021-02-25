@@ -1,2 +1,9 @@
+.unCoverHeader {
+  height: 65px;
+}
 
-
+@media screen and (max-width: 600px) {
+  .unCoverHeader {
+    height: 57px;
+  }
+}
